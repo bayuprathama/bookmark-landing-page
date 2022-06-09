@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/bookmark-landing-page/static/css/main.51bd5c25.css",
+    "main.js": "/bookmark-landing-page/static/js/main.5ef4f352.js",
+    "static/media/illustration-features-tab-3.svg": "/bookmark-landing-page/static/media/illustration-features-tab-3.a4206aab7946773b29b702492d2d014b.svg",
+    "static/media/illustration-features-tab-2.svg": "/bookmark-landing-page/static/media/illustration-features-tab-2.e933bd6d921c537d7743e08ea4ec488e.svg",
+    "static/media/illustration-hero.svg": "/bookmark-landing-page/static/media/illustration-hero.07801d05cb11930f0c826add8c05ce22.svg",
+    "static/media/illustration-features-tab-1.svg": "/bookmark-landing-page/static/media/illustration-features-tab-1.0da3d302207bcad90cdadc5052e35ed6.svg",
+    "index.html": "/bookmark-landing-page/index.html",
+    "static/media/bg-dots.svg": "/bookmark-landing-page/static/media/bg-dots.90f0b46cec8b5f7cfd12393cb5f391a7.svg",
+    "main.51bd5c25.css.map": "/bookmark-landing-page/static/css/main.51bd5c25.css.map",
+    "main.5ef4f352.js.map": "/bookmark-landing-page/static/js/main.5ef4f352.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51bd5c25.css",
+    "static/js/main.5ef4f352.js"
+  ]
+}
