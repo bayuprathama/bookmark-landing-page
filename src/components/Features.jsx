@@ -125,7 +125,7 @@ export default function Features() {
         </div>
       </div>
 
-      <div className="items-baseline md:mb-14 mb-10 justify-center  md:grid md:grid-cols-3 md:max-w-[600px] md:mx-auto">
+      <div className="items-baseline md:mb-14 mb-10 justify-center text-center md:grid md:grid-cols-3 md:max-w-[600px] md:mx-auto">
         <div className="border-t border-gray-200 md:border-t-0 md:border-b-2 md:w-full">
           <button
             onClick={(e) => handleFeaturesClick(e)}
@@ -162,7 +162,7 @@ export default function Features() {
       </div>
 
       <div className="md:grid md:grid-cols-2 md:max-w-[1120px] mx-auto mb-24">
-        <div className="max-w-[535px] max-h-[390px] md:justify-self-end md:mr-8">
+        <div className="md:max-w-[535px] md:max-h-[390px] md:justify-self-end md:mr-8 px-8 md:px-0 mb-10 md:mb-0">
           <img className="" src={illustrationName()} alt="" />
         </div>
         <div className="md:pt-16">{renderTabs()}</div>

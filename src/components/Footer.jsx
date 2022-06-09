@@ -1,44 +1,36 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import clsx from 'clsx';
 export default function Footer() {
   const [email, setEmail] = useState('');
   const [isValid, setIsValid] = useState(true);
-  const [isMounted, setIsMounted] = useState(false);
 
   function onInputTypeEmailChange(e) {
     setEmail(e.target.value);
-    const check = email.includes('@') && email.includes('.');
-    check ? setIsValid(true) : setIsValid(false);
-    console.log('check', check);
-    console.log('isValid', isValid);
   }
-  // useEffect(() => {
-  //   setIsMounted(true);
-  // }, [isValid]);
+
   return (
     <div>
       <div className="bg-soft-blue px-[30px]">
-        <div className="text-center pt-[72px] pb-[60px] md:mx-auto max-w-[465px]">
+        <div className="text-center pt-[72px] pb-[60px] md:mx-auto max-w-[500px]">
           <p className="uppercase text-white tracking-[3px] text-sm pb-2">
             35,000 already joined
           </p>
-          <p className="text-2xl font-medium text-white md:text-3xl">
+          <p className="text-2xl font-medium tracking-wider text-white md:text-3xl">
             Stay up-to-date with what we're doing
           </p>
-          <form action="" className="flex flex-col pt-[30px]">
-            <div className="bg-soft-red mb-[20px]">
-              <input
-                value={email}
-                onChange={(e) => onInputTypeEmailChange(e)}
-                className="w-full px-5 py-3 rounded font-rubik"
-                type="email"
-                placeholder="Enter your email address"
-              />
-              <p className={`text-white ${clsx(isValid ? 'hidden' : '')}`}>
-                error
-              </p>
-            </div>
-            <button className="px-5 py-3 font-medium text-white rounded bg-soft-red">
+          <form
+            action=""
+            className="flex flex-col md:flex-row md:gap-4 pt-[30px]"
+          >
+            <input
+              value={email}
+              onChange={(e) => onInputTypeEmailChange(e)}
+              className="w-full px-5 py-3 mb-5 rounded md:w-auto md:grow md:inline-block font-rubik"
+              type="email"
+              placeholder="Enter your email address"
+            />
+
+            <button className="inline-block px-5 py-3 font-medium text-white rounded md:h-[fit-content] bg-soft-red">
               Contact Us
             </button>
           </form>

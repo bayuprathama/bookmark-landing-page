@@ -46,7 +46,7 @@ export default function Faq() {
       </div>
       <div className="flex items-center justify-center">
         <a
-          href="#"
+          href="#more-info"
           className="px-4 py-2 text-sm text-white rounded bg-soft-blue"
         >
           More Info

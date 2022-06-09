@@ -1,6 +1,5 @@
 import React from 'react';
 import dashed from '../images/bg-dots.svg';
-import IconChrome from './media/IconChrome';
 
 export default function FeaturesCard({
   title,
